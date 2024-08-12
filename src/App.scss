@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$font-fam:"Inter";
+
+.nav {
+  .btn {
+    border-radius: 5px;
+  }
+  .a {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+// header
+.header{
+  // .img1{
+  //   border-radius: 0px, 10px, 10px, 0px;
+  // }
+  img{
+    border-radius: 10px;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 52px;
+  }
+  p{
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+// trending
+.trending{
+  border-radius: 10px;
+  h5{
+    font-weight: 700;
+    font-family: $font-fam;
+    font-size: 20px;
+    line-height: 24px;
+  }
+ .tr:hover{
+  background-color: #f4f4f5;
+ }
+  p{
+    font-family: $font-fam;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  h6{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: $font-fam;
+    line-height: 22px;
+    color: #51525c;
+  }
+ 
+}
+// remote
+.remote{
+  border-radius: 10px;
+  h5{
+    font-family: $font-fam;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .re:hover{
+    background-color: #f4f4f5;
+  }
+    h6{
+      font-family: $font-fam;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    p{
+      font-family: $font-fam;
+      font-size: 16px;
+    }
+  
+}
+// Newthread
+.newsthread{
+  border-radius: 10px;
+  .head{
+     border-radius: 10px;
+     background-color: #f4f4f5;
+  }
+  .head:hover{
+    border-color: rgb(49, 49, 253);
+  }
+}
+// foru
+.foru{
+  button{
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+// thread
+.thread{
+  h6{
+    font-size: 17px;
+  }
+  .tr:hover{
+    background-color: #f4f4f5;
+   }
+   p{
+    font-family: $font-fam;
+   }
+}
